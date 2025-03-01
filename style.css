@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav{
+    margin: 0px;
+    position: fixed;
+    top: 40px;
+    left: -383px;
+    background-color: blue;
+    padding: 5px 10px;
+    transition: 1s;
+    height: 25px;
+}
+
+nav::after{
+    content: '';
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/800px-Flag_of_Austria.svg.png);
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav a{
+    color: rgb(88, 75, 128);
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+
+
+nav a:hover{
+    background-image: linear-gradient(to bottom, red, white,white, red );
+}
+
+nav:hover{
+    left: 10px;
+}
+
+header {
+    top: -27px;
+    position: relative ;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 255, 255, 0), rgba(0, 255, 255, 0), rgb(0, 140, 255)), url(https://pohcdn.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/austria-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+}
+
+header h1{
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(250, 235, 215, 0.575);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header p{
+    margin: 20px;
+    font-size: 25px;
+    background-color: rgba(250, 235, 215, 0.575);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.info{
+    top: -27px;
+    position: relative ;
+    margin: 0px;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    transition: 1s ease-out;
+}
+
+.info:hover{
+    height: 450px;
+}
+
+.vienna{
+    background-image: url(https://dia.dp.gov.ua/wp-content/uploads/2023/09/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-3.jpg) ;
+
+}
+
+.sobor{
+    background-image: url(https://kidpassage.com/images/activity/sobor-svyatogo-stefana-vienna/sobor-svyatogo-stefana-12_471517950/prev800x468.jpg);
+}
+
+.parliament{
+ background-image: url(https://kcet.kz/upload/resize_cache/webp/upload/medialibrary/af5/shutterstock_371287150.webp);
+}
+
+.Eisriesenvelt_cave {
+ background-image: url(https://peopletravel.by/uploads/images/fotos/sights/austria/pesheraaysrizenveld_3.jpg);
+}
+.info div{
+margin-left: 50%;
+padding-top: 20px;
+padding-right: 30px;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sobor div{
+ margin-left: 10px;
+ width: 50%;
+background-color: rgba(240, 248, 255, 0.199);
+}
+
+.parliament div{
+ font-size: 25
+ px;
+ margin-left: 10px;
+ width: 60%;
+background-color: rgba(240, 248, 255, 0.199);
+}
+
+.Eisriesenvelt_cave div{
+    padding: 10px;
+background-color: rgba(240, 248, 255, 0.199);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
